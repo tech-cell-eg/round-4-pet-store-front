@@ -10,3 +10,18 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# 1. install typeScript
+npm install -g typescript
+tsc -v   (Version 5.8.3)
+# 2. install tailwind
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# install axios
+npm install axios
+
+# install react router dom
+npm install react-router-dom
